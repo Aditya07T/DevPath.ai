@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevPath.ai - AI Learning Roadmaps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reactflow/dist/style.css" />
+    <style>
+      /* Custom Scrollbar for dark theme */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0f172a; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #475569; 
+      }
+      
+      /* React Flow Dark Theme Overrides */
+      .react-flow__node {
+        border-radius: 8px;
+        font-family: 'Inter', sans-serif;
+      }
+      .react-flow__controls {
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        border: 1px solid #334155;
+      }
+      .react-flow__controls-button {
+        background: #1e293b;
+        border-bottom: 1px solid #334155;
+        fill: #94a3b8;
+      }
+      .react-flow__controls-button:hover {
+        background: #334155;
+        fill: #f8fafc;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "reactflow": "https://esm.sh/reactflow@^11.11.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-950 text-slate-50 antialiased overflow-hidden">
+    <div id="root"></div>
+  </body>
+</html>
